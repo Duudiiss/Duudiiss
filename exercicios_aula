@@ -1,0 +1,78 @@
+#aula1
+
+import string
+
+def eMaiusculo(caracter):
+    if caracter in string.ascii_uppercase:
+        return True
+    return False
+
+def eVogal(caracter):
+    if caracter in 'AEIOUaeiou' :
+        return True
+    return False
+
+
+
+print(eVogal('p'))
+print(eMaiusculo('A'))
+
+
+#aula2
+
+def produto_vencido(data, vencimento):
+    if data[-1]==vencimento[-1]:
+        if data[-2]==vencimento[-2]:
+            if data[-3]>vencimento[-3]:
+                print('venceu')
+            else:
+                print('ainda não venceu')
+        elif:
+            data[-2] > vencimento[-2]:
+                    print('produto vencido')
+    else:
+        print('não venceu')
+
+produto_vencido(546,444)
+
+
+'''outro exercicio'''
+palavras = input('digite uma palavras')
+i = -1
+quantidadeLetras = len(palavras)
+
+while -quantidadeLetras <= i:
+    print(palavras[i])
+
+    i -= 1
+
+
+
+#aula3
+
+def listaImprime(lista):
+    i=0
+    tamlista = len(lista)
+    while i < tamlista:
+        print(lista[i])
+        i+=1
+
+def listaImprime2(lista):
+    tamL= len(lista)
+    for i in range(tamL):
+        print(lista[i])
+
+def listaImprime3(lista):
+    for i in lista:
+        print(i)
+
+def listaMult2(lista):
+    tamL= len(lista)
+    for i in range(tamL):
+        print(lista[i])
+
+
+
+
+lista = [1, 2, True, 'oii']
+listaImprime3(lista)
