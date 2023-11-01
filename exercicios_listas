@@ -82,7 +82,7 @@ def proximoMedia(lista):
     return nMenorDif
 
 
-lista1 = [1, 4, 4, 4, 15, 0, 18, 1]
+lista1 = [1, 4, 4, 4, 15, 0, 18, 1
 lista2 = [1, 4, 4, 4, 15, 0, 18, 1]
 
 listasIguais1 = random.sample(range(0, 8), 8)
