@@ -1,0 +1,15 @@
+from tkinter import *
+from tkinter import Entry
+
+def tratar_enter(event):
+    texto_digitado = entrada.get()
+    etiqueta = Label(root, text=texto_digitado)
+    etiqueta.pack()
+    
+
+root = Tk()
+entrada = Entry(root)
+entrada.pack()
+
+entrada.bind("<Return>", tratar_enter)
+root.mainloop()
