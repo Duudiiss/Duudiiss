@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @Duudiiss
 - 👀 I’m interested in astronomy
-- 🌱 I’m currently learning phyton, math, and mechanics
-- 💞️ I’m looking to collaborate on study
+- 🌱 I’m currently learning programming and mechanics
 
 <!---
 Duudiiss/Duudiiss is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
